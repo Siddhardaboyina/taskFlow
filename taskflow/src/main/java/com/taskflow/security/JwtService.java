@@ -19,10 +19,11 @@ public class JwtService {
             1000 * 60 * 60; // 1 hour
 
     public JwtService(
-            @Value("${jwt.secret}") String secret) {
+            @Value("${jwt.secret:taskflow-super-secret-key-for-jwt-token-generation-2026}")
+            String secretKey) {
 
         this.key = Keys.hmacShaKeyFor(
-                secret.getBytes(StandardCharsets.UTF_8)
+                secretKey.getBytes(StandardCharsets.UTF_8)
         );
     }
 
