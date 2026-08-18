@@ -1,0 +1,35 @@
+# Old frontend backup
+taskflow-frontend/
+
+# ZIP backups
+*.zip
+
+# Backend generated files
+taskflow/target/
+taskflow/.idea/
+
+# Backend environment/secrets
+taskflow/.env
+taskflow/.env.*
+!taskflow/.env.example
+
+# Local Spring Boot configuration
+taskflow/src/main/resources/application.properties
+
+# New frontend dependencies/build
+taskflow-frontend-updated/taskflow-frontend/node_modules/
+taskflow-frontend-updated/taskflow-frontend/dist/
+taskflow-frontend-updated/taskflow-frontend/build/
+
+# Frontend environment files
+taskflow-frontend-updated/taskflow-frontend/.env
+taskflow-frontend-updated/taskflow-frontend/.env.*
+!taskflow-frontend-updated/taskflow-frontend/.env.example
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
