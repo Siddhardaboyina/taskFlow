@@ -86,6 +86,7 @@ public class SecurityConfig {
                 "http://localhost:5173",
                 "http://localhost:5174",
                 "https://task-flow-8lergdc9v-team-coders9.vercel.app"
+                "https://task-flow-tawny-two.vercel.app"
         ));
 
         // HTTP methods allowed from the frontend
